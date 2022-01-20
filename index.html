@@ -1,23 +1,29 @@
 <!DOCTYPE html>
+
+
 <html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CMF Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
 
 <body class="bg-gradient-to-b from-[#c4cdc1] to-[#b4d4a9]">
 
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CMF Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <!-- <link rel="stylesheet" href=""> -->
-        <link href="/dist/output.css" rel="stylesheet">
-    </head>
+    <header
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-1/3 py-20 bg-gradient-to-b from-[#99aead] to-[#78b1ae]/70">
 
-
-    <header class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-1/3 py-20 bg-gradient-to-b from-[#99aead] to-[#78b1ae]/70">
-      
-        <article class="flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 ml-20">
+        <article class="intro flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 ml-20">
             <div class="">
                 Current UCB Full Stack Coding bootcamp student with a background in biology and medicine. <br><br> 2018
                 Sonoma State University graduate with Bachelor of Science in Biology (Physiology)
@@ -28,14 +34,14 @@
         </div>
         <div class="flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 mr-20">
             <div class="align-middle">
-            <div>Resume</div>
-            <a href="documents/resume.pdf" target="blank" download>
-            <img src="images/cv.png" class="h-40 w-40">
-            </a>
+                <div>Resume</div>
+                <a href="documents/resume.pdf" target="blank" download>
+                    <img src="images/cv.png" class="h-40 w-40">
+                </a>
             </div>
         </div>
 
-        
+
     </header>
 
 
@@ -48,7 +54,9 @@
     <main class="border-t-2 border-[#5a5050] relative">
 
         <article class="grid place-items-center pb-5">
-            <h1 class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-cyan-600 text-black -top-5 w-24 rounded-md">Projects</h1>
+            <h1
+                class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-cyan-600 text-black -top-5 w-24 rounded-md">
+                Projects</h1>
         </article>
 
         <br>
@@ -58,7 +66,8 @@
 
 
             <article class="container bg-[#7a6b6b] hover:ring-4 ring-cyan-600 rounded-md shadow-md relative">
-                <button type="button" target="blank" class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
+                <button type="button" target="blank"
+                    class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/weather-dashboard">
                         <img src="images/github.png">
                     </a>
@@ -68,13 +77,15 @@
                         <img src="images/weather.png">
                     </a>
                 </button>
-                <div class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
+                <div
+                    class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Weather Dashboard
                 </div>
             </article>
 
             <article class="container bg-[#7a6b6b] hover:ring-4 ring-cyan-600 rounded-md shadow-md relative">
-                <button type="button" target="blank" class="border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
+                <button type="button" target="blank"
+                    class="border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/timed-code-quiz">
                         <img src="images/github.png">
                     </a>
@@ -84,7 +95,8 @@
                         <img src="images/quiz.png">
                     </a>
                 </button>
-                <div class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
+                <div
+                    class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Timed Quiz
                 </div>
             </article>
@@ -99,11 +111,12 @@
                 </button>
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/password-generator/" target="blank">
-                <img src="images/pwd.png">
-                </a>
+                        <img src="images/pwd.png">
+                    </a>
                 </button>
-                <div class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
-                   Password Generator
+                <div
+                    class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
+                    Password Generator
                 </div>
             </article>
 
@@ -116,10 +129,11 @@
                 </button>
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/daily-planner/" target="blank">
-                <img src="images/planner.png">
-                    </a> 
+                        <img src="images/planner.png">
+                    </a>
                 </button>
-                <div class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
+                <div
+                    class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Daily Planner
                 </div>
             </article>
@@ -131,7 +145,9 @@
 
         <section class="border-t border-black relative">
             <article class="grid place-items-center pb-5">
-                <h1 class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-cyan-600 text-black -top-5 w-60 rounded-md">Collaborative
+                <h1
+                    class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-cyan-600 text-black -top-5 w-60 rounded-md">
+                    Collaborative
                     Projects</h1>
             </article>
         </section>
@@ -147,12 +163,13 @@
                 </button>
                 <button>
                     <a href="https://dazedchou.github.io/Astronomy-Dashboard/" target="blank">
-                <img src="images/astronomy.png" class="w-full pt-4 pb-8 object-cover">
-                </a>
+                        <img src="images/astronomy.png" class="w-full pt-4 pb-8 object-cover">
+                    </a>
                 </button>
-                <div class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
+                <div
+                    class="text-center absolute bg-[#dee1dd] border-2 border-cyan-600 text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Astronomy Dashboard
-                    
+
                 </div>
             </div>
         </article>
