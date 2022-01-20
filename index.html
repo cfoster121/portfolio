@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 
-
 <html>
-
-
 
 <head>
     <meta charset="utf-8">
@@ -17,124 +14,150 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
+
+<!-- Body of page -->
 <body class="bg-gradient-to-b from-[#c4cdc1] to-[#b4d4a9]">
 
-
+    <!-- Header bar -->
     <header class="bg-gradient-to-b from-[#99aead] to-[#78b1ae]/70">
-    <h1 class="text-5xl underline decoration-double text-center pt-5">Courtney M Foster</h1>
-<div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-1/3 py-20">
-        <article class="flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 ml-20">
-            <div class="text-center text-xl">
-                UCB Full Stack Coding bootcamp student with a background in biology and medicine. <br><br> 2018
-                Sonoma State University graduate with Bachelor of Science in Biology (Physiology)
-            </div>
-        </article>
-        <div class="flex justify-center items-center">
-            <img src="images/self.png" class="max-w-md max-h-md px-20 self-center">
-        </div>
-        <div class="flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 mr-20">
-            <div class="align-middle">
-                <div class="text-4xl text-center underline">Resume</div>
-                <br>
-                <a href="documents/resume.pdf" target="blank" download>
-                    <img src="images/cv.png" class="hover:scale-125 h-40 w-40">
-                </a>
-            </div>
-        </div>
-        </div>
+        <!--Page title-->
+        <h1 class="text-5xl underline decoration-double text-center pt-5">
+            Courtney M Foster
+        </h1>
 
-
+        <div>
+            <!-- Header grid layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 h-1/3 py-20">
+                <!-- Grid section 1 (bio)-->
+                <article class="my-20 lg:my-0 flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 ml-20">
+                    <div class="text-center text-slate-200 text-xl">
+                        UCB Full Stack Coding bootcamp student with a background in biology and medicine. <br><br> 2018
+                        Sonoma State University graduate with Bachelor of Science in Biology (Physiology)
+                    </div>
+                </article>
+                <!--Grid section 2 (photo)-->
+                <div class="flex justify-center items-center">
+                    <img src="images/self.png" class="max-w-md max-h-md px-20 self-center">
+                </div>
+                <!--Grid section 3 (reswume)-->
+                <div class="my-20 lg:my-0 flex justify-center items-center bg-[#2f575d]/50 rounded-full px-20 mr-20">
+                    <div class="align-middle">
+                        <div class="text-4xl text-slate-200 text-center underline">Resume</div>
+                        <br>
+                        <a href="documents/resume.pdf" target="blank" download>
+                            <img src="images/cv.png" class="hover:scale-125 invert-[.90] h-40 w-40">
+                        </a>
+                    </div>
+                </div>
+            </div>
     </header>
 
-
     <br>
     <br>
     <br>
 
-
-
+    <!--Main section of page-->
     <main class="border-t-2 border-[#5a5050] relative">
 
+        <!--Projects section divider and title-->
         <article class="grid place-items-center pb-5">
             <h1
                 class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black -top-5 w-24 rounded-md">
-                Projects</h1>
+                Projects
+            </h1>
         </article>
 
         <br>
         <br>
 
+        <!-- Projects grid layout-->
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 px-20 pt-5">
 
 
+            <!--Project 1 - Weather Dashboard-->
             <article class="container bg-[#7a6b6b] hover:ring-4 ring-sky-800 rounded-md shadow-md relative">
+                <!--GitHub Icon linked to repository-->
                 <button type="button" target="blank"
                     class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/weather-dashboard">
                         <img src="images/github.png">
                     </a>
                 </button>
+                <!--Image linked to deployed page-->
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/weather-dashboard/" target="blank">
                         <img src="images/weather.png">
                     </a>
                 </button>
+                <!--Title-->
                 <div
                     class="text-center absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Weather Dashboard
                 </div>
             </article>
 
+
+            <!--Project 2 - Quiz-->
             <article class="container bg-[#7a6b6b] hover:ring-4 ring-sky-800 rounded-md shadow-md relative">
+                <!--GitHub Icon linked to repository-->
                 <button type="button" target="blank"
                     class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/timed-code-quiz">
                         <img src="images/github.png">
                     </a>
                 </button>
+                <!--Image linked to deployed page-->
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/timed-code-quiz/" target="blank">
                         <img src="images/quiz.png">
                     </a>
                 </button>
+                <!--Title-->
                 <div
                     class="text-center absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Timed Quiz
                 </div>
             </article>
 
-
+            <!--Project 3 - Password Generator-->
             <article class="bg-[#7a6b6b] hover:ring-4 ring-sky-800 rounded-md shadow-md relative">
+                <!--GitHub Icon linked to repository-->
                 <button type="button" target="blank"
                     class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/password-generator">
                         <img src="images/github.png">
                     </a>
                 </button>
+                <!--Image linked to deployed page-->
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/password-generator/" target="blank">
                         <img src="images/pwd.png">
                     </a>
                 </button>
+                <!--Title-->
                 <div
                     class="text-center absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Password Generator
                 </div>
             </article>
 
+
+            <!--Project 4 - Weather Dashboard-->
             <article class="bg-[#7a6b6b] hover:ring-4 ring-sky-800 rounded-md shadow-md relative">
+                <!--GitHub Icon linked to repository-->
                 <button type="button" target="blank"
                     class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/daily-planner">
                         <img src="images/github.png">
                     </a>
                 </button>
+                <!--Image linked to deployed page-->
                 <button class="w-full h-60 pt-4 pb-8 object-cover">
                     <a href="https://cfoster121.github.io/daily-planner/" target="blank">
                         <img src="images/planner.png">
                     </a>
                 </button>
+                <!--Title-->
                 <div
                     class="text-center absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Daily Planner
@@ -146,33 +169,38 @@
         <br>
         <br>
 
+
+        <!--Collaborative Projects section divider and title-->
         <section class="border-t-2 border-[#5a5050] relative">
             <article class="grid place-items-center pb-5">
                 <h1
                     class="text-center text-2xl absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black -top-5 w-60 rounded-md">
-                    Collaborative
-                    Projects</h1>
+                    Collaborative Projects
+                </h1>
             </article>
         </section>
 
 
+        <!--Collaborative Project 1 - Astronomy Dashboard-->
         <article class="flex justify-center py-10">
             <div class="bg-[#7a6b6b] hover:ring-4 ring-sky-800 rounded-md shadow-md relative w-2/3 md:w-1/3 lg:w-1/4">
+                <!--GitHub Icon linked to repository-->
                 <button type="button" target="blank"
                     class="hover:scale-125 border border-black bg-white p-1 absolute rounded-full -top-6 -left-6 h-12 w-12">
                     <a href="https://github.com/cfoster121/astronomy-dashboard">
                         <img src="images/github.png">
                     </a>
                 </button>
+                <!--Image linked to deployed page-->
                 <button>
                     <a href="https://dazedchou.github.io/Astronomy-Dashboard/" target="blank">
                         <img src="images/astronomy.png" class="w-full pt-4 pb-8 object-cover">
                     </a>
                 </button>
+                <!--Title-->
                 <div
                     class="text-center absolute bg-[#dee1dd] border-2 border-[#2c1d1d] text-black py-1 px-2 inset-x-10 bottom-4 rounded-md">
                     Astronomy Dashboard
-
                 </div>
             </div>
         </article>
@@ -180,37 +208,26 @@
 
     <br>
     <br>
+
+    <!--Footer containing contact info-->
     <footer class="border-t-2 border-[#5a5050] relative flex justify-center items-center space-x-5 py-20 font-bold text-lg">
+        <!--Email-->
         <a href="mailto: cfoster649@gmail.com">
             <img src="images/email.png" class="hover:scale-125 h-10 w-10">
         </a>
+        <!--GitHub-->
         <a href="https://github.com/cfoster121" target="blank">
             <img src="images/github.png" class="hover:scale-125 h-10 w-10">
         </a>
+        <!--LinkedIn-->
         <a href="https://www.linkedin.com/in/courtney-foster-0b364575/" target="blank">
             <img src="images/linkedin.png" class="hover:scale-125 h-10 w-10">
         </a>
-
+        <!--Phone-->
         <a href="tel:41513750605">
             <img src="images/phone.png" class="hover:scale-125 h-10 w-10">
         </a>
     </footer>
-
-    <!-- 
-    Create header with photo / about me
-        tailwind formatting
-    Create sections for projects, resume, and contact
-        tailwind grid
-    Add links/containers to github respositories
-        tailwind/js 
-    Add project images to container backgrounds to display what each project contains
-        tailwind
-    Add link to resume
-        html
-            **update resume**
-    Add icons for contact options (linkedin/github/phone/email)
-        **create google voice account**
-. -->
 
     <script src="script.js"></script>
 </body>
