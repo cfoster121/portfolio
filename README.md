@@ -11,24 +11,24 @@ Each card displays a screenshot of a deployed web development project. Clicking 
 
 ## Essential Code  
 
-Responsive Breakpoints
+**Responsive Breakpoints**
 ![Responsive Breakpoints](images/responsive.gif)  
 ![Responsive Breakpoints](images/responsive2.gif)  
   
-Click Card to Deployed Page  
+**Click Card to Deployed Page**  
 ![Deployed](images/deployed.gif)  
   
-Click Github Icon to Repository  
+**Click Github Icon to Repository**  
 ![GitHub](images/github.gif)  
   
-Contact Icons  
+**Contact Icons**  
 ![Icons](images/icons.gif)  
 ![Email](images/email.gif)  
 ![GitHub](images/github2.gif)  
 ![LinkedIn](images/linkedin.gif)  
 ![Phone](images/phone.gif)  
 
-Resume  
+**Resume**  
 ![Resume](images/resume.gif)
 
 ## Built With
